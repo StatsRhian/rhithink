@@ -6,6 +6,12 @@
 \usage{
 summarise_classes(df)
 }
+\arguments{
+\item{df}{A dataframe}
+}
+\value{
+A dataframe summarising the column classes
+}
 \description{
 Summarise classes
 }

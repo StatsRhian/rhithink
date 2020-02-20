@@ -1,5 +1,6 @@
 #' Summarise classes
-#' @importFrom magrittr %>%
+#' @param df A dataframe
+#' @return A dataframe summarising the column classes
 #' @export
 summarise_classes <- function(df) {
   df %>%
