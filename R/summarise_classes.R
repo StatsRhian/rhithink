@@ -1,6 +1,6 @@
-# Summarise classes
-
-
+#' Summarise classes
+#' @importFrom magrittr %>%
+#' @export
 summarise_classes <- function(df) {
   df %>%
     purrr::map_df(~class(.x)) %>%

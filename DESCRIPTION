@@ -5,10 +5,11 @@ Authors@R:
     person(given = "Rhian",
            family = "Davies",
            role = c("aut", "cre"),
-           email = "rhian@jumpingrivers.com"
+           email = "rhian@jumpingrivers.com")
 Description: A collection of functions that Rhi occasionally uses.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/trianglegirl/rhithink
 BugReports: https://github.com/trianglegirl/rhithink/issues
+RoxygenNote: 6.1.1
